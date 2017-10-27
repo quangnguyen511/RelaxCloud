@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="toolbar_size">@dimen/_56dp</dimen>
+    <dimen name="drawable_padding">@dimen/_25dp</dimen>
+</resources>

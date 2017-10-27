@@ -1,4 +1,4 @@
-package com.android.relaxcloud.fragment;
+package com.android.relaxcloud.fragment.intro;
 
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import com.android.relaxcloud.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class IntroFragment extends Fragment {
+public class Intro2Fragment extends Fragment {
 
 
-    public IntroFragment() {
+    public Intro2Fragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class IntroFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_intro, container, false);
+        return inflater.inflate(R.layout.fragment_intro2, container, false);
     }
 
 }

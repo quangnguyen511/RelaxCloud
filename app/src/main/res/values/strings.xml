@@ -1,3 +1,7 @@
 <resources>Sound
     <string name="app_name">Relax Cloud</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro1">Your calm mind is the ultimate weapon against your challenges \n So relax</string>
 </resources>

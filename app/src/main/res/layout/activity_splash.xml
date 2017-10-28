@@ -4,15 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.relaxcloud.activity.SplashActivity">
+    tools:context="com.android.relaxcloud.activity.SplashActivity"
+    tools:layout_editor_absoluteY="25dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/actSplash_vpIntro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/actSplash_tlIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tabBackground="@drawable/selector_indicator"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="@dimen/_0dp"/>
 
 </android.support.constraint.ConstraintLayout>

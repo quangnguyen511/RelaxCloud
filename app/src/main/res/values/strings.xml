@@ -7,4 +7,7 @@
     <string name="intro2">Sleep solves everything.</string>
     <string name="intro3">Sound of nature will make you feel comfortable…</string>
     <string name="intro4">…And then work productively</string>
+
+    <!--action-->
+    <string name="Explore">Let\'s Explore</string>
 </resources>

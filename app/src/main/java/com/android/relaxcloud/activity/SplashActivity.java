@@ -62,6 +62,7 @@ public class SplashActivity extends BaseActivity implements ViewPager.OnPageChan
     @OnClick(R.id.actSplash_tvExplore)
     void onViewClicked() {
         toMain(getApplicationContext());
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     @Override

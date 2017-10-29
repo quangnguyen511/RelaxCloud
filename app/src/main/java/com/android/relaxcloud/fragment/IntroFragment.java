@@ -1,4 +1,4 @@
-package com.android.relaxcloud.fragment.intro;
+package com.android.relaxcloud.fragment;
 
 
 import android.os.Bundle;

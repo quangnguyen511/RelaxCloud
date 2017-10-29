@@ -5,7 +5,7 @@
     android:background="@color/pink"
     android:orientation="vertical"
     android:padding="@dimen/_16dp"
-    tools:context="com.android.relaxcloud.fragment.intro.IntroFragment">
+    tools:context="com.android.relaxcloud.fragment.IntroFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView

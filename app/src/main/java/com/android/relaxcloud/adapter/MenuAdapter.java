@@ -40,11 +40,17 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuHolder> {
     }
 
     @Override
-    public void onBindViewHolder(MenuHolder holder, int position) {
+    public void onBindViewHolder(final MenuHolder holder, int position) {
         MenuModel mMenu = mMenus.get(holder.getAdapterPosition());
         holder.imvImage.setImageResource(mMenu.getImage());
         holder.tvTitle.setText(mMenu.getTitle());
         holder.itemView.setBackgroundColor(Color.parseColor(mMenu.getColor()));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onItemClicked(holder.getAdapterPosition());
+            }
+        });
     }
 
     @Override

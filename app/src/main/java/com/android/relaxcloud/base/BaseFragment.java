@@ -7,4 +7,15 @@ import android.support.v4.app.Fragment;
  **/
 
 public class BaseFragment extends Fragment {
+    public void replaceFragment(BaseFragment fragment, boolean isAddToBackStack) {
+        if (getActivity() instanceof BaseActivity) {
+            ((BaseActivity) getActivity()).replaceFragment(fragment, isAddToBackStack);
+        }
+    }
+
+    public void addFragment(BaseFragment fragment, boolean isAddToBackStack) {
+        if (getActivity() instanceof BaseActivity) {
+            ((BaseActivity) getActivity()).addFragment(fragment, isAddToBackStack);
+        }
+    }
 }

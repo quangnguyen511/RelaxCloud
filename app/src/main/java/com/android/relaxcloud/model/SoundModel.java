@@ -12,7 +12,17 @@ public class SoundModel implements Serializable {
     @SerializedName("title")
     private String title;
     @SerializedName("duration")
-    private String duration;
+    private Integer duration;
+    @SerializedName("url")
+    private String url;
+
+    public String getUrl() {
+        return url != null ? url : "";
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public String getTitle() {
         return title != null ? title : "";
@@ -22,11 +32,11 @@ public class SoundModel implements Serializable {
         this.title = title;
     }
 
-    public String getDuration() {
-        return duration != null ? duration : "";
+    public Integer getDuration() {
+        return duration != null ? duration : 0;
     }
 
-    public void setDuration(String duration) {
+    public void setDuration(Integer duration) {
         this.duration = duration;
     }
 }

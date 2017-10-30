@@ -32,7 +32,7 @@ public class MainActivity extends BaseActivity implements ItemListener {
         mMenus.add(new MenuModel(R.drawable.ic_calm, "Calm Sound", "#F3BB72"));
         mMenus.add(new MenuModel(R.drawable.ic_sleep, "Sleep Sound", "#FF85A7"));
         mMenus.add(new MenuModel(R.drawable.ic_coffee, "Coffee Shop Sound", "#B39DDB"));
-        mMenus.add(new MenuModel(R.drawable.ic_nature, "Nature Sound", "#7BECED"));
+        mMenus.add(new MenuModel(R.drawable.ic_nature, "Nature Sound", "#87CEFA"));
         mMenus.add(new MenuModel(R.drawable.ic_work, "Focus Sound", "#B1DC76"));
 
         MenuAdapter menuAdapter = new MenuAdapter(mMenus);

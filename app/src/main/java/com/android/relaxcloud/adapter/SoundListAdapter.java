@@ -41,7 +41,7 @@ public class SoundListAdapter extends RecyclerView.Adapter<SoundListAdapter.Soun
     public void onBindViewHolder(final SoundHolder holder, int position) {
         SoundModel mSound = mSounds.get(position);
         holder.tvTitle.setText(mSound.getTitle());
-//        holder.tvDuration.setText(mSound.getDuration());
+        holder.tvDuration.setText(mSound.getDuration());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
